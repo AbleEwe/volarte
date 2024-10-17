@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        montserrat: ['var(--font-montserrat)', 'sans-serif'],
+        bungee: ['var(--font-bungee)', 'sands-serif'], 
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
