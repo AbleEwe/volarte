@@ -19,7 +19,7 @@ const Banner: React.FC<BannerProps> = ({ image, title, description }) => {
       }}
     >
       <div className="p-4 text-white text-center">
-        <h1 className="text-6xl font-bold mb-6">{title}</h1>
+        <h1 className="text-4xl md:text-6xl font-bold mb-6">{title}</h1>
         <p className="text-2xl">{description}</p>
       </div>
     </div>

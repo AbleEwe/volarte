@@ -22,7 +22,7 @@ interface PilotsProps {
 
 const Pilots: React.FC<PilotsProps> = ({ pilots }) => {
   return (
-    <section>
+    <section className='w-full'>
       {/* Title, HR, and Description Section */}
       <div className="text-center bg-[#3399cc] w-full py-20">
         <h1 className="text-[#FFFFFF] text-5xl">CONOCE AL EQUIPO</h1>
@@ -33,7 +33,7 @@ const Pilots: React.FC<PilotsProps> = ({ pilots }) => {
       </div>
 
       {/* Pilots Section with 4-Column Responsive Layout */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 my-16 max-w-7xl mx-auto px-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 my-16 w-full mx-auto px-14">
         {pilots.map((pilot, index) => (
         <div className="bg-[#FFFFFF] p-6 rounded-lg shadow-md flex flex-col items-center h-full" key={index}>
             <Image src={pilot.image} alt={pilot.name} className="w-[150px] h-[150px] mb-4 rounded-full object-cover hover:scale-105 transform transition-transform duration-300" width={150} height={150}/>

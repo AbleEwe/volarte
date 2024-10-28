@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         montserrat: ['var(--font-montserrat)', 'sans-serif'],
-        bungee: ['var(--font-bungee)', 'sands-serif'], 
+        nixie_one: ['var(--font-nixie_one)', 'sans-serif'],
       },
       colors: {
         background: "var(--background)",
