@@ -44,7 +44,7 @@ export default function Component() {
         backgroundSize: "cover" 
       }}
     >
-      <h1 className="text-[#FFFFFF] text-2xl md:text-5xl">NUESTROS PATROCINADORES</h1>
+      <h1 className="text-[#FFFFFF] text-3xl md:text-5xl text-center mt-12">NUESTROS PATROCINADORES</h1>
       <hr className="w-1/6 my-12 mx-auto border-[#FFFFFF]"/>
       <p className="m-0 text-[#FFFFFF] text-center text-xl md:text-2xl w-4/5 md:max-w-[60%]">Con nosotros el tiempo se pasa volando</p>
       <div className="w-full relative mt-16">

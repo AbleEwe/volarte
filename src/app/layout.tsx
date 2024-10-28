@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Montserrat, Bungee } from 'next/font/google'
+import { Montserrat, Nixie_One } from 'next/font/google'
 import "./globals.css";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
@@ -15,10 +15,10 @@ const montserrat = Montserrat({
   variable: "--font-montserrat", 
 });
 
-const bungee = Bungee({
+const nixie_one = Nixie_One({
   subsets: ["latin"],
-  weight: "400",
-  variable: "--font-bungee", 
+  weight: ["400"],
+  variable: "--font-nixie_one", 
 });
 
 export default function RootLayout({
@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${montserrat.variable} ${bungee.variable}`}>
+    <html lang="en" className={`${montserrat.variable} ${nixie_one.variable}`}>
       <NavBar />
       <body>
         {children}
