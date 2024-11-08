@@ -36,7 +36,7 @@ const Pilots: React.FC<PilotsProps> = ({ pilots }) => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 my-16 w-full mx-auto px-14">
         {pilots.map((pilot, index) => (
         <div className="bg-[#FFFFFF] p-6 rounded-lg shadow-md flex flex-col items-center h-full" key={index}>
-            <Image src={pilot.image} alt={pilot.name} className="w-[150px] h-[150px] mb-4 rounded-full object-cover hover:scale-105 transform transition-transform duration-300" width={150} height={150}/>
+            <Image src={pilot.image} alt={pilot.name} className="w-[150px] h-[150px] mb-4 rounded-full object-cover object-top hover:scale-105 transform transition-transform duration-300" width={150} height={150}/>
             <h2 className="text-2xl font-bold text-[#28282B] mb-4 text-center">{pilot.name}</h2>
             <h3 className='text-lg text-[#343434] m-0 font-semibold'>Certificados</h3>
             <ul className="text-lg text-[#747474] my-3 list-disc list-inside text-left w-full">

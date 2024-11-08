@@ -11,6 +11,7 @@ const config: Config = {
       fontFamily: {
         montserrat: ['var(--font-montserrat)', 'sans-serif'],
         nixie_one: ['var(--font-nixie_one)', 'sans-serif'],
+        open_sans: ['var(--font-open_sans)', 'sans-serif']
       },
       colors: {
         background: "var(--background)",

@@ -15,7 +15,7 @@ const Header: React.FC = () => {
         ¡Con nosotros el tiempo se pasa <span className='text-[#3399cc] md:text-5xl text.4xl'>VOLANDO!</span>
         </h2>
         <a
-          href="https://wa.me/1234567890"
+          href="https://wa.link/1cq86c"
           target="_blank"
           rel="noopener noreferrer"
           className="px-8 py-2 bg-[#3399cc] text-white rounded-2xl hover:bg-[#2e8ab8] transition duration-300 hover:scale-105 font-montserrat font-semibold"

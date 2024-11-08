@@ -54,7 +54,7 @@ const ImageSection: React.FC<ImageSectionProps> = ({
         <Image
           src={image}
           alt={title}
-          className={`object-cover h-4/5 w-full absolute md:top-1/2 md:transform md:-translate-y-1/2 ${
+          className={`object-cover object-top h-4/5 w-full absolute md:top-1/2 md:transform md:-translate-y-1/2 ${
             reverseLayout
               ? 'md:right-[-30%] right-auto bottom-0'
               : 'md:left-[-30%] left-auto bottom-0'

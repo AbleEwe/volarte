@@ -15,7 +15,7 @@ const FAQAccordion: React.FC = () => {
   };
 
   return (
-    <div className="w-full px-16 mt-8 mb-16">
+    <div className="w-full px-14 mt-8 mb-16">
       {faqData.map((item: FAQItem, index: number) => (
         <div key={index} className="border-b border-gray-300">
           <button

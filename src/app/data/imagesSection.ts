@@ -47,7 +47,7 @@ export const imageSectionsData = [
         "Podrás completar el pago restante directamente con el piloto y te daremos indicaciones para que recibas tus fotos y videos, capturando un recuerdo que seguramente nunca olvidarás.", 
         "Después de tu vuelo, podrás compartir la emocionante experiencia de haber volado entre las nubes y disfrutar de un delicioso desayuno con tus seres queridos. Te recomendamos unos chilaquiles o la variedad de pizzas a la leña ¡Un final perfecto para una aventura inolvidable!"
       ],
-      image: "/dreams.webp",
+      image: "/afterFlight.webp",
       reverseLayout: true
     }
   ];
