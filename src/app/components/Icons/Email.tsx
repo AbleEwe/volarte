@@ -1,7 +1,9 @@
 import React from 'react';
 import { cn } from '@/utils/cn'; 
 
-export interface IconProps extends React.SVGProps<SVGSVGElement> {}
+export interface IconProps extends React.SVGProps<SVGSVGElement> {
+  customProp?: string; // Example custom property
+}
 
 const Email = React.forwardRef<SVGSVGElement, IconProps>(
   ({ className, ...props }, ref) => (
