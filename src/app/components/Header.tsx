@@ -6,8 +6,8 @@ const Header: React.FC = () => {
       className="relative h-[70vh] md:h-screen bg-top flex items-center justify-center bg-[url('/Volarte_tiny.webp')] bg-cover mt-40 md:mt-0"
     >
       <div className="absolute inset-0 bg-black bg-opacity-10"></div>
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center max-w-[80%] md:max-w-full">
-        <h1 className="text-2xl md:text-5xl text-white mb-8 ">
+      <div className="relative z-10 flex flex-col items-center md:justify-center h-full text-center max-w-[80%] md:max-w-full">
+        <h1 className="text-2xl md:text-5xl text-white mb-36 mt-8 md:mt-0 md:mb-8">
           Vuelos en Parapente en Tapalpa
         </h1>
         <h2 className="text-2xl md:text-4xl text-white mb-8">
