@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
@@ -53,21 +53,24 @@ const NavBar: React.FC = () => {
       <WhatsAppBar />
       <div
         className={`w-full z-50 transition-colors duration-300 ${
-          navBackground ? 'bg-black bg-opacity-80' : 'bg-transparent'
+          navBackground ? 'bg-black bg-opacity-60' : 'md:bg-transparent bg-black'
         }`}
       >
         <div
           className={`container mx-auto ${
             navBackground ? 'flex-row' : 'md:flex-col'
-          } flex items-center justify-between px-6 transition-all duration-300`}
+          } flex items-center justify-between px-6 transition-all duration-300 h-28 md:h-full`}
         >
           <div className={`${navBackground ? '' : 'w-full'}`}>
-            <Image
-              src="/Logo_Volarte.webp"
-              alt="Logo"
-              width={60}
-              height={60}
-            />
+            <Link href="/">
+              <Image
+                src="/Logo_Volarte.webp"
+                alt="Logo"
+                width={60}
+                height={60}
+                className="cursor-pointer"
+              />
+            </Link>
           </div>
 
           {/* Hamburger Menu Icon */}
@@ -107,8 +110,7 @@ const NavBar: React.FC = () => {
           <ul
             className={`${
               menuOpen ? 'flex' : 'hidden'
-            } md:hidden absolute top-[60px] left-0 w-full bg-black bg-opacity-80 text-white text-lg flex-col space-y-6 p-6 z-50`}
-            style={{ marginTop: navBackground ? '0' : '56px' }}
+            } md:hidden absolute top-[113px] left-0 w-full bg-black bg-opacity-80 text-white text-lg flex-col space-y-6 p-6 z-50`}
           >
             {navLinks.map(({ href, name }) => (
               <li key={href}>
