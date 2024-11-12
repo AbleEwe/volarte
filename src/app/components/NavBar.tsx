@@ -44,7 +44,7 @@ const NavBar: React.FC = () => {
   ];
 
   const getLinkClass = (href: string) =>
-    `h-full px-2 py-4 md:px-4 md:py-6 transition-colors duration-300 ${
+    `h-full px-2 py-2 md:px-4 md:py-6 transition-colors duration-300 ${
       pathname === href ? 'bg-[#3399cc]' : 'hover:bg-[#3399cc]'
     } flex items-center justify-center cursor-pointer`;
 
@@ -75,21 +75,21 @@ const NavBar: React.FC = () => {
 
           {/* Hamburger Menu Icon */}
           <div
-            className="md:hidden flex flex-col justify-center items-center cursor-pointer space-y-1 relative z-60"
+            className="md:hidden flex flex-col justify-center items-center cursor-pointer space-y-1 relative z-[999]"
             onClick={toggleMenu}
           >
             <span
-              className={`block w-6 h-0.5 bg-white transition-transform duration-300 ${
+              className={`block w-6 h-0.5 bg-white transition-transform duration-300 z-70 ${
                 menuOpen ? 'rotate-45 translate-y-1.5' : ''
               }`}
             />
             <span
-              className={`block w-6 h-0.5 bg-white transition-opacity duration-300 ${
+              className={`block w-6 h-0.5 bg-white transition-opacity duration-300 z-70 ${
                 menuOpen ? 'opacity-0' : ''
               }`}
             />
             <span
-              className={`block w-6 h-0.5 bg-white transition-transform duration-300 ${
+              className={`block w-6 h-0.5 bg-white transition-transform duration-300 z-70 ${
                 menuOpen ? '-rotate-45 -translate-y-1.5' : ''
               }`}
             />
@@ -110,7 +110,7 @@ const NavBar: React.FC = () => {
           <ul
             className={`${
               menuOpen ? 'flex' : 'hidden'
-            } md:hidden absolute top-[113px] left-0 w-full bg-black bg-opacity-80 text-white text-lg flex-col space-y-6 p-6 z-50`}
+            } md:hidden absolute top-[165.5px] left-0 w-full bg-black bg-opacity-60 text-white text-lg flex-col space-y-6 p-6 z-50`}
           >
             {navLinks.map(({ href, name }) => (
               <li key={href}>
