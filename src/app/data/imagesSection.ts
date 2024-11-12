@@ -16,7 +16,7 @@ export const imageSectionsData = [
         "Además, recibirás toda la información de seguridad necesaria antes de embarcarte en esta experiencia.",
         "¡Ahora solo queda una cosa por hacer y eso es volar!"
       ],
-      image: "/introduccion.webp",
+      image: "/intro.webp",
       reverseLayout: false
     },
     {
