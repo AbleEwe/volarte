@@ -60,9 +60,12 @@ const FlightsPrices: React.FC<FlightsPricesProps> = ({ packages }) => {
                 <Image src={pkg.image} alt={pkg.title} className="w-full h-40 object-cover mb-4 rounded-lg" width={200} height={150}/>
                 <p className="text-lg text-gray-700 mb-2">{pkg.price}</p>
                 <p className="text-sm text-gray-500 mb-4">{pkg.description}</p>
-                <p className="text-sm text-gray-600 mb-2">Duration: {pkg.time}</p>
+                <p className="text-sm text-gray-600 mb-2">Duración: {pkg.time}</p>
                 <p className="text-sm text-gray-600 mb-4">
                   {pkg.includesMedia ? 'Incluye fotos y video' : '*NO incluye fotos ni video'}
+                </p>
+                <p className="text-sm text-gray-600 mb-4">
+                  *Seguro en caso de accidentes
                 </p>
                 <button className="bg-[#3399cc] text-white py-2 px-4 rounded-2xl hover:bg-[#2e8ab8] transition duration-300 font-montserrat">
                   Agendar vuelo

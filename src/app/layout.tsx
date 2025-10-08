@@ -3,6 +3,7 @@ import { Montserrat, Nixie_One, Open_Sans } from 'next/font/google'
 import "./globals.css";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import TidioChat from "./components/TidioChat";
 
 export const metadata: Metadata = {
   title: "Vuelos Parapente en Tapalpa",
@@ -38,6 +39,7 @@ export default function RootLayout({
         <NavBar />
         {children}
         <Footer/>
+        <TidioChat />
       </body>
     </html>
   );
