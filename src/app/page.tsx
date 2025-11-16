@@ -11,6 +11,7 @@ export default function Home() {
   return (
     <div>
       <Header/>
+        <FlightsPrices packages={packages} />
         {imageSectionsData.map((section, index) => (
           <ImageSection
             key={index}
@@ -21,7 +22,6 @@ export default function Home() {
           />
         ))}
         <Testimonies/>
-        <FlightsPrices packages={packages} />
         <Pilots
         pilots={pilotsData}
         />
