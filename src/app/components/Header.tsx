@@ -14,7 +14,7 @@ const Header: React.FC = () => {
           ¡Con nosotros el tiempo se pasa VOLANDO!
         </h2>
         <h3 className="text-lg md:text-xl text-white mb-8 max-w-2xl">
-          *Somos los únicos que ofrecemos un Seguro en Caso de Accidentes
+          *Somos los únicos en ofrecer un Seguro de Vuelo,
         </h3>
         <a
           href="https://wa.link/1cq86c"

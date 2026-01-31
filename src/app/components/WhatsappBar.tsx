@@ -8,7 +8,7 @@ export const WhatsAppBar: React.FC = () => {
     >
       <Link className="md:pl-16 flex items-center justify-center space-x-2" href="https://wa.link/1cq86c" target='_blank'>
         <Image src="/WhatsappLogo.webp" alt="WhatsApp" width={40} height={40} />
-        <span>33-3870-3525</span>
+        <span>33-1076-2869</span>
       </Link>
     </div>
   );
