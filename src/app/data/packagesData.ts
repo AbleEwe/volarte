@@ -7,7 +7,7 @@ export const packages = [
       description: 'El más vendido',
       time: '15-30 min. de vuelo',
       includesMedia: true,
-      whatsappLink: 'https://wa.link/1cq86c', 
+      whatsappLink: 'https://api.whatsapp.com/send?phone=5213310762869&text=Hola%20VolArte%20Parapente%20GDL%2C%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20vuelos%20tandem%20%F0%9F%A6%85%20-%20%0Awww.volarteparapentegdl.com', 
     },
     {
       slug: 'clasico',
@@ -17,7 +17,7 @@ export const packages = [
       description: 'Sin recuerdos foto-videográficos',
       time: '15-30 min. de vuelo',
       includesMedia: false,
-      whatsappLink: 'https://wa.link/1cq86c', 
+      whatsappLink: 'https://api.whatsapp.com/send?phone=5213310762869&text=Hola%20VolArte%20Parapente%20GDL%2C%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20vuelos%20tandem%20%F0%9F%A6%85%20-%20%0Awww.volarteparapentegdl.com', 
     },
     {
       slug: 'parvada',
@@ -27,7 +27,7 @@ export const packages = [
       description: 'Paquete de 3 o más vuelos reservados',
       time: '15-30 min. de vuelo',
       includesMedia: false,
-      whatsappLink: 'https://wa.link/1cq86c', 
+      whatsappLink: 'https://api.whatsapp.com/send?phone=5213310762869&text=Hola%20VolArte%20Parapente%20GDL%2C%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20vuelos%20tandem%20%F0%9F%A6%85%20-%20%0Awww.volarteparapentegdl.com', 
     },
     {
       slug: 'cross',
@@ -37,7 +37,7 @@ export const packages = [
       description: 'Vuelo a campo traviesa',
       time: '30-45 min. de vuelo',
       includesMedia: true,
-      whatsappLink: 'https://wa.link/1cq86c',
+      whatsappLink: 'https://api.whatsapp.com/send?phone=5213310762869&text=Hola%20VolArte%20Parapente%20GDL%2C%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20vuelos%20tandem%20%F0%9F%A6%85%20-%20%0Awww.volarteparapentegdl.com',
     },
   ];
   

@@ -17,7 +17,7 @@ const Header: React.FC = () => {
           *Somos los únicos en ofrecer un Seguro de Vuelo,
         </h3>
         <a
-          href="https://wa.link/1cq86c"
+          href="https://api.whatsapp.com/send?phone=5213310762869&text=Hola%20VolArte%20Parapente%20GDL%2C%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20vuelos%20tandem%20%F0%9F%A6%85%20-%20%0Awww.volarteparapentegdl.com"
           target="_blank"
           rel="noopener noreferrer"
           className="px-8 py-2 bg-[#3399cc] text-white rounded-2xl hover:bg-[#2e8ab8] transition duration-300 hover:scale-105 font-montserrat font-semibold"

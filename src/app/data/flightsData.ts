@@ -7,7 +7,7 @@ export const flightData = {
       subtotal: 2700,
       anticipo: 500,
       restante: 2200,
-      whatsappLink: 'https://wa.link/1cq86c', 
+      whatsappLink: 'https://api.whatsapp.com/send?phone=5213310762869&text=Hola%20VolArte%20Parapente%20GDL%2C%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20vuelos%20tandem%20%F0%9F%A6%85%20-%20%0Awww.volarteparapentegdl.com', 
       image: '/packages/Classic.webp',
     },
     premium: {
@@ -18,7 +18,7 @@ export const flightData = {
       subtotal: 3000,
       anticipo: 500,
       restante: 2500,
-      whatsappLink: 'https://wa.link/1cq86c', 
+      whatsappLink: 'https://api.whatsapp.com/send?phone=5213310762869&text=Hola%20VolArte%20Parapente%20GDL%2C%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20vuelos%20tandem%20%F0%9F%A6%85%20-%20%0Awww.volarteparapentegdl.com', 
       image: '/packages/Premium.webp',
     },
     parvada: {
@@ -29,7 +29,7 @@ export const flightData = {
       subtotal: 2400,
       anticipo: 500,
       restante: 1900,
-      whatsappLink: 'https://wa.link/1cq86c', 
+      whatsappLink: 'https://api.whatsapp.com/send?phone=5213310762869&text=Hola%20VolArte%20Parapente%20GDL%2C%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20vuelos%20tandem%20%F0%9F%A6%85%20-%20%0Awww.volarteparapentegdl.com', 
       image: '/packages/Parvada.webp',
     },
     cross: {
@@ -40,7 +40,7 @@ export const flightData = {
       subtotal: 3500,
       anticipo: 500,
       restante: 3000,
-      whatsappLink: 'https://wa.link/1cq86c', 
+      whatsappLink: 'https://api.whatsapp.com/send?phone=5213310762869&text=Hola%20VolArte%20Parapente%20GDL%2C%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20vuelos%20tandem%20%F0%9F%A6%85%20-%20%0Awww.volarteparapentegdl.com', 
       image: '/packages/Cross.webp', 
     },
 };
